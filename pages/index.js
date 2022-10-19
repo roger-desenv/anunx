@@ -1,9 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import TemplateDefault from '../src/templates/Default'
 
 
 export default function Home() {
   return (
-    <div>index</div>
+    <TemplateDefault>
+      MIOLO
+    </TemplateDefault>
+    
   )
 }
+
